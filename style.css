@@ -17,6 +17,11 @@ nav h1 {
     margin-left: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
