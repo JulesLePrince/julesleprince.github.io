@@ -4,7 +4,7 @@ body {
     padding: 0 1%;
 }
 
-nav {
+.top_bar nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,4 +37,26 @@ nav ul li {
     height: auto;
     left: 0px;
     bottom:0px;
+    z-index: -1;
 }
+
+.projects h1 {
+    margin-left:20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.projects ul {
+    list-style-type: none;
+}
+
+.projects img {
+    height: 450px;
+    width: 280px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.projects img:hover { transform: scale(1.05); }
