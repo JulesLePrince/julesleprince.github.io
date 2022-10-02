@@ -1,0 +1,40 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0 1%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav h1 {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.github {
+    margin-right: 10px;
+}
+
+.line {
+    position:absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    bottom:0px;
+}
