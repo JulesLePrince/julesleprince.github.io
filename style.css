@@ -14,7 +14,7 @@ body {
 }
 nav h1 {
     font-weight: normal;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -52,7 +52,7 @@ nav ul li {
 
 .project_img {
     height: 450px;
-    width: 280px;
+    width: auto;
     border-radius: 10px;
     backdrop-filter: blur(5px);
     transition: all .2s ease-in-out;

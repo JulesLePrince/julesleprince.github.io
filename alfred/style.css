@@ -1,0 +1,109 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0 1%;
+}
+
+.top_bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.top_bar nav h1 {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.home {
+    padding-top: 1px;
+}
+
+a {
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.top_bar nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.top_bar nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.github {
+    margin-right: 10px;
+}
+
+.line {
+    position:absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+}
+
+
+.alfred-desc {
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.alfred-desc h1 {
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.alfred-desc h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: initial;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    grid-auto-rows: minmax(200px, 100px);
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+
+.wrapper .date {
+    position: absolute;
+    bottom: 0;
+    font-size: 23px;
+}
+
+.wrapper .title {
+    margin-top: 15px;
+}
+
+.case {
+    background: rgb(222, 221, 253, .2);
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 0px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    border-style: solid;
+    border-color: #979797;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
+}
+
+.case:hover {
+    transform: scale(1.02);
+}
