@@ -2,8 +2,9 @@
 ### What is it?
 Alfred is a torrent searcher and a torrent streaming service. It means that with a given movie, Alfred will find the best torrent on an indexer website and will stream it so that you can watch it directly. <br /> Here is a short demo in order to understand how it works : 
 
-<iframe width="420" height="315" src="https://user-images.githubusercontent.com/31992334/193637801-6d718e49-38f6-4606-9d54-1042fd0e914b.mov
-" frameborder="0" allowfullscreen></iframe>
+<video controls="controls" width="800" height="600" name="Video Name">
+  <source src="https://user-images.githubusercontent.com/31992334/193637801-6d718e49-38f6-4606-9d54-1042fd0e914b.mov">
+</video>
 
 
 A lot is going on!! Let's dive in and explain what happened: 
