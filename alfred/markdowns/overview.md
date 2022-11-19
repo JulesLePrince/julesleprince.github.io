@@ -4,7 +4,7 @@
 ## Overview
 Alfred is a torrent searcher and a torrent streaming service. It means that with a given movie, Alfred will find the best torrent on an indexer website and will stream it so that you can watch it directly. <br /> Here is a short demo in order to understand how it works : 
 
-<video src="https://user-images.githubusercontent.com/31992334/193637801-6d718e49-38f6-4606-9d54-1042fd0e914b.mov" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/31992334/202872562-da62f0a0-6e5b-4028-af8c-68eec6cba3fc.mov" controls="controls" style="max-width: 730px;">
 </video>
 
 The movie torrent is not downloaded on the user computer but on an server (that can however be running on the same machine) handling the movie torrent research thanks to indexers sites
@@ -21,3 +21,6 @@ This project has been very instructive and made me learn a ton of competences so
 ## Conclusion
 This project brought me a lot but is not finished. I want to open source it the faster, the better and to make a user interfaces for every 
 operating system. 
+
+
+
